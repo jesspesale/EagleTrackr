@@ -3,9 +3,9 @@ import { store } from './redux/store'
 import { SafeAreaProvider } from 'react-native-safe-area-context'
 import { NavigationContainer } from '@react-navigation/native'
 import { createStackNavigator } from '@react-navigation/stack'
-import LandingScreen from './screens/0-Landing/LandingScreen'
-import AuthScreen from './screens/1-Auth/AuthScreen'
-import HomeScreen from './screens/2-Home/HomeScreen'
+import LandingScreen from './screens/1-Landing/LandingScreen'
+import AuthScreen from './screens/2-Auth/AuthScreen'
+import HomeScreen from './screens/3-Home/HomeScreen'
 import 'react-native-gesture-handler'
 
 export default function App() {
